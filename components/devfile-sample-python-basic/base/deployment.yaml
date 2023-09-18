@@ -28,7 +28,7 @@ spec:
       - env:
         - name: ENV
           value: Value
-        image: python-image:latest
+        image: quay.io/redhat-user-workloads-stage/rhtap-dast-bot-tenant/devfile-sample-python-basic/devfile-sample-python-basic@sha256:4abc527f2d94e378ebf3de6f1dd52dabc909280eff51fec5663ab76912bd6653
         name: my-python
         ports:
         - containerPort: 8081
