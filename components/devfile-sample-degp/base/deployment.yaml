@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-degp
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-user-workloads-stage/rhtap-dast-bot-tenant/devfile-sample-python-basic/devfile-sample-degp@sha256:36f5175f8846ea2ef2ddd2b8837c80a8526c3990f5b417a4b0ae262164c1a440
         name: my-nodejs
         ports:
         - containerPort: 3001
