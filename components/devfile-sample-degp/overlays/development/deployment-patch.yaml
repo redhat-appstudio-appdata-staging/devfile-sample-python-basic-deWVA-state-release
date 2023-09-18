@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-degp
+spec:
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/rhtap-dast-bot-tenant/devfile-sample-python-basic/devfile-sample-degp@sha256:36f5175f8846ea2ef2ddd2b8837c80a8526c3990f5b417a4b0ae262164c1a440
+        name: my-nodejs
+        resources: {}
+status: {}
